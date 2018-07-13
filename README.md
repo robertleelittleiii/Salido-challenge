@@ -22,5 +22,5 @@ Define and explain a set of data models that facilitate menu item pricing determ
 
 ## The Solution
 ### The Date Model:
-![schema_drawing.db](docs/images/schema.png)
+![schema_drawing.db](docs/images/schema_drawing.png)
 
