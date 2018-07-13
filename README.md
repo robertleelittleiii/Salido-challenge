@@ -21,6 +21,6 @@ Define and explain a set of data models that facilitate menu item pricing determ
   * Otherwise, the **Menu Item** has no currently applicable **Price Level** and cannot be purchased.
 
 ## The Solution
-### The Date Model:
+### The Data Model:
 ![schema_drawing.db](docs/images/schema_drawing.png)
 
