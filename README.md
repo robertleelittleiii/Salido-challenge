@@ -303,7 +303,7 @@ end
 
 In my demo application below, I am using silverweb_cms gem as the user interface component layer.  This is the CMS gem I developed to allow me to quickly build systems.  It utilizes live edit and instantiation of models to be edited (like creating a folder in the apple finder). It also makes use of a javascript/ruby gem called best-in-place for the live edit fields.  This library was pulled into the CMS gem 3 years ago and heavily modified to support callbacks and validations. This gives the web application an IOs UI feel and allows me to focus on the business rules and application logic.
 
-###DayParts
+### DayParts
 
 The DayParts model is interesting since one of the requirements is that the full day (24h) must be filled for it to be valid.  A simple approach to this using standard a simple form like so:
 
