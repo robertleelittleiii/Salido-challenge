@@ -26,7 +26,7 @@ Define and explain a set of data models that facilitate menu item pricing determ
 
 ### Model Discussion
 
-The **Brand** is in charge of defining many of the configuration elements that the **Location** will use to manage thier menus.  The Brand will define the values of several lookup tables:  **PriceLevel**, **OrderType**.  The **Brand** will also define what **MenuItems** will be sold and at what price points.
+The **Brand** is in charge of defining many of the configuration elements that the **Location** will use to manage their menus.  The Brand will define the values of several lookup tables:  **PriceLevel**, **OrderType**.  The **Brand** will also define what **MenuItems** will be sold and at what price points.
 
 **Brand Class:**
 
@@ -301,7 +301,7 @@ end
 
 ## UI Considerations
 
-In my demo applicaiton below, I am using silverweb_cms gem as the user interface component layer.  This is the CMS gem I developed to allow me to quickly build systems.  It utilizes live edit and instantiation of models to be edited (like creating a folder in the apple finder). It also makes use of a javascript/ruby gem called best-in-place for the live edit fields.  This library was pulled into the CMS gem 3 years ago and heavily modified to support callbacks and validiations. This gives the web applicaton an IOs UI feel and allows me to focus on the business rules and application logic.
+In my demo application below, I am using silverweb_cms gem as the user interface component layer.  This is the CMS gem I developed to allow me to quickly build systems.  It utilizes live edit and instantiation of models to be edited (like creating a folder in the apple finder). It also makes use of a javascript/ruby gem called best-in-place for the live edit fields.  This library was pulled into the CMS gem 3 years ago and heavily modified to support callbacks and validations. This gives the web application an IOs UI feel and allows me to focus on the business rules and application logic.
 
 ###DayParts
 
@@ -309,13 +309,13 @@ The DayParts model is interesting since one of the requirements is that the full
 
 ![DayPart_Example_Simple](docs/images/daypart_example.png)
 
-After submission, validate and report back the errors for the user to fix. Functional but not elegent.  Also it should be easily translatable to mobile devices running IOs and Android.
+After submission, validate and report back the errors for the user to fix. Functional but not elegant.  Also it should be easily translatable to mobile devices running IOs and Android.
 
-This problem reminds me of a hard drive tool for partitioning a drive.  You have a limited amount of space and you want to segment it into slices.  In this case the size is *24 hours* and the slices are the **DayParts**.  There are afew jquery solutions.  
+This problem reminds me of a hard drive tool for partitioning a drive.  You have a limited amount of space and you want to segment it into slices.  In this case the size is *24 hours* and the slices are the **DayParts**.  There are a few jquery solutions.  
 
 ![DayPart_Example_Simple](docs/images/daypart_example_ui.png)
 
-With this type of UI solution, the user simply moves the sliders and the  datetimes are ajusted automally, thus eliminating the complex validations.
+With this type of UI solution, the user simply moves the sliders and the  datetimes are adjusted automatically, thus eliminating the complex validations.
 
 [jsfiddle example](http://jsfiddle.net/RobertLeeLittleIII/5c7oun1v/)
 
@@ -338,7 +338,7 @@ There are two users setup for the demo.
         User Name: admin@noone.com
         Password:  password
         
-*Note: Some of the validations are turned off on the curret prototype so that the simplistic interface can geneerate entries for the MenuPriceConfiguration*
+*Note: Some of the validations are turned off on the current prototype so that the simplistic interface can generate entries for the MenuPriceConfiguration*
 
 
 
